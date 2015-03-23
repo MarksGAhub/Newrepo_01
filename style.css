@@ -1,0 +1,41 @@
+/*This is going to be my container the base of the calculator*/
+.container{
+	height: 450px;
+	width: 400px;
+	background-color: #1715AB;
+	margin: 0 auto; 
+	text-align: right; 
+	border: 10px solid #0301C5;
+	border-radius: 25px;
+	
+}
+
+/* The below boxes are going to be my buttons*/
+.box {
+	display: table;
+	height: 17.7%;
+	width:	22.4%;
+	background-color: #01A9ff;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+
+	float: left;
+	margin: 4px
+
+
+}
+/* The below section is for my screen*/
+.screen {
+	height: 15%;
+	width: 370px;
+	background-color: #F1FAf6;
+	margin: 0 auto;
+	text-align: right;
+	border-radius: 10px;
+}
+body {
+	font-family: Helvetica;
+	margin: 0 auto;
+	background-color: black;
+}
